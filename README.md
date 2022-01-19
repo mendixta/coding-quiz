@@ -7,7 +7,7 @@ For this assignment, we were asked to create to create a timed quiz with multipl
 - If the question in answered incorrectly, then time will be deducted
 - When all the questions are answered or if time runs out, then it will take the user to a page where they can save their name and score 
 
-The final result was this: <!-- Website Link -->
+The final result was this: https://mendixta.github.io/coding-quiz/
 
 
 # Getting Started
