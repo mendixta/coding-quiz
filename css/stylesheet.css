@@ -1,0 +1,74 @@
+body {
+    background-color: rgb(218, 218, 218) ;
+}
+
+
+
+h1 {
+  text-align: center;
+  padding-top: 2rem;
+  
+}
+
+h3 {
+    padding-top: 2rem;
+}
+
+h5{
+    text-align: center;
+}
+.top {
+    background-color: rgb(66, 66, 66);
+    padding-bottom: 2rem;
+}
+
+/* QUESTION CONTAINER */
+.question-container {
+    padding-top: 2rem;
+    padding-left: 20rem;
+    padding-right: 20rem;
+}
+
+.box {
+    padding: 5rem;
+    border-radius: 2rem;
+}
+
+
+
+/* WELCOME CONTAINER */
+p {
+    padding-top: 3rem;
+    text-align: center;
+}
+
+
+
+.welcome {
+    padding-top: 13rem;
+    padding-left: 20rem;
+    padding-right: 20rem;
+
+}
+
+.buttons {
+    padding-top: 2rem;
+    padding-left: 21rem;
+}
+
+
+
+footer {
+    text-align: center;
+    padding-top: 19rem;
+    padding-bottom: 2rem;
+}
+
+.secondsLeft {
+    padding-top: 2rem;
+    padding-right: 95rem;
+}
+
+.status {
+    padding-top: 5rem;
+}

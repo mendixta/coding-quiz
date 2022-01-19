@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- STYLESHEET(S)-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
+    <link rel="stylesheet" href = "../css/end.css">
+    <title> Coding Game </title>
+
+
+
+<!-- TITLE -->
+<div class = "top"> 
+    <h1 class = "title is-2 has-text-white"> CODING QUIZ </h1>
+</div>
+
+<div class = "input-container">
+
+    <form method = "POST" class = "box">
+                            <!-- Name Input -->
+     <h2 class = "title is-4"> Game Over! Enter your Name and Score! <span id= "finalScore"></span></h2>
+     
+     <h5 class = "title is-4"> <span id = "currentScore"></span></h5>
+        <div class = "input-div">
+            <input class="input" type="text" id = "nameInput" placeholder=" enter your name!">
+        </div>
+                            <!-- Score Input-->
+        <div class = "input-div">
+            <input class="input" type="text" id = "scoreInput" placeholder=" enter your score!">
+        </div>
+                 <!-- Buttons (Submit Score + Restart Quiz)-->
+        <div class = "btn-div">
+            <button class="button is-primary" id = "btnScore"> SUBMIT </button>
+         <a href= "gameStart.html" id = "startQuiz" class = "button"> RESTART QUIZ</a>
+        </div>
+    </div>
+</form>
+
+    <!--- Container where the most recent score is saved -->
+<div class = "score-container">
+    <h3 class = "title is-3"> Your Last Score </h3>
+    <!-- Most recent player (Name)-->
+<div class = "name-div">
+    <h4 class = "title is-4"> Name: <span id = "oldName"></span></h4>
+</div>
+
+    <!-- Most recent Score -->
+<div class = "score-div">
+    <h4 class = "title is-4"> Score: <span id = "oldScore"></span></h4>
+</div>
+</div>
+
+ <footer> Made by Griselda Mendieta</footer>
+                
+ <!-- SCRIPT -->
+ <script src= "../js/gameEnd.js"></script> 
+ <script src = "../js/script.js"></script>
+
+</head>
+<body>
+    

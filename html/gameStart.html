@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- STYLESHEET(S)-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
+    <link rel="stylesheet" href = "../css/stylesheet.css">
+    <title> Coding Game </title>
+
+
+
+<!-- TITLE -->
+<div class = "top"> 
+    <h1 class = "title is-2 has-text-white"> CODING QUIZ </h1>
+</div>
+
+   <!-- TIMER -->
+<div class = "secondsLeft">
+     <h5 class = "title is-4"> <span id = "timeLeft"></span></h5>
+</div>
+
+<div class = "status">
+    <h5 class = "title is-4"> <span id = "result"></span></h5>
+    <h5 class = "title is-4"> <span id = "currentScore"></span></h5>
+</div>
+
+<!-- QUESTION CONTAINER -->
+    <!-- question page id = questionPage -->
+    <div class = "question-page" id= "questionPage">  
+            <div class = "question-container">
+                <div class = "box">
+                    <h2 class = "title is-4"> Question: <span id = "current-question"></span></h2>
+                        <button class = "button is-medium is-fullwidth is-link is-outlined" id = "answer-1"> </button>
+                        <button class = "button is-medium is-fullwidth is-link is-outlined" id = "answer-2"> </button>
+                        <button class = "button is-medium is-fullwidth is-link is-outlined " id = "answer-3"> </button>
+                        <button class = "button is-medium is-fullwidth is-link is-outlined" id = "answer-4"> </button>
+                </div>
+                <a href= "index.html" id = "startQuiz" class = "button"> GO BACK TO HOMEPAGE</a>
+            </div>
+        </div>
+        
+        <footer> Made by Griselda Mendieta</footer>
+        
+        
+ <!-- SCRIPT -->
+    <script src= "../js/script.js"></script>
+
+</head>
+<body>
+    

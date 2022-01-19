@@ -1,0 +1,49 @@
+body {
+    background-color: rgb(218, 218, 218) ;
+}
+
+
+
+.top {
+    background-color: rgb(66, 66, 66);
+    padding-top: 2rem;
+    padding-left: 48rem;
+    padding-bottom: 2rem;
+
+}
+
+.box {
+    padding: 4rem;
+    border-radius: 2rem;
+}
+
+
+.input-div {
+    padding-bottom: 1rem;
+}
+
+
+.input-container {
+    padding-top: 8rem;
+    padding-left: 25rem;
+    padding-right: 25rem;
+
+}
+
+.score-container {
+    padding-top: 5rem;
+}
+
+h3{
+    text-align: center;
+}
+
+h4 {
+    padding-left: 40rem;
+}
+
+footer {
+    padding-top: 10rem;
+    padding-bottom: 5rem;
+    text-align: center;
+}
